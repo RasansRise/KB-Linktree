@@ -1,0 +1,90 @@
+
+/* Table of contents
+â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“
+
+- Rounded user avatars
+- Buttons
+- Brand Styles
+
+*/
+
+
+/* Rounded avatars
+â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+
+/* Disable this if you don't want rounded avatars for users */
+*{
+  margin:0;
+  padding: 0;
+  
+}
+.rounded-avatar {
+    border-radius: 50%;
+
+    background-color: transparent !important;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .social-icon {
+    font-size: 32px;
+    padding: 10px;
+  }
+  .social-icon-div {
+    padding-bottom: 40px;
+  }
+  .social-icon{color:#fff;}
+  
+  /* Buttons
+  â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+  
+  .button {
+    position: relative;
+    background-color: #E84621;
+    color: var(--accentColor);
+
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px!important;
+    padding: 20px;
+    text-decoration: none;
+    /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  @media (hover: hover) {
+    .button:hover {
+        background-color: #ffffff;
+        color: var(--bgColor);
+    }
+  }
+  
+  .button:active {
+    background-color: var(--accentColor);
+    color: var(--bgColor);
+  }
+  
+  
+  /* Brand Icons
+  â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+  
+  .icon {
+    right: 10px;
+    bottom: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .button:hover > .icon {
+    fill:red;
+  }
+  
+  svg {
+    color: white !important;
+  }
