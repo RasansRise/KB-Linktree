@@ -40,7 +40,7 @@
   
   .button {
     position: relative;
-    background-color: #E84621;
+    background-color: #e22932;
     color: var(--accentColor);
 
     border-radius: 5px;
@@ -65,7 +65,7 @@
   
   .button:active {
     background-color: var(--accentColor);
-    color: var(--bgColor);
+    color: #e22932;
   }
   
   
@@ -82,7 +82,7 @@
   }
   
   .button:hover > .icon {
-    fill:red;
+    fill:#e22932;
   }
   
   svg {
