@@ -84,6 +84,9 @@
     background-size: cover;
     position: relative;
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   
@@ -142,7 +145,8 @@
     text-decoration: none;
   }
   a:hover {
-    color: #f5af19; }
+    color: #83a4cf; 
+  }
   
   .spacing {
     padding: 0 10px;
